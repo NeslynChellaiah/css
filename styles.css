@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    padding: 30px;
+}
+
+.title-container {
+    filter: drop-shadow(-1px 6px 3px rgba(50, 50, 0, 0.5));
+}
+
+.title {
+    height: 30vh;
+    clip-path: polygon(0 40%, 100% 0, 100% 60%, 0 100%);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.title-text {
+    color: white;
+    font-family: 'Lato', sans-serif;
+    text-transform: uppercase;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.education {
+    background-image: linear-gradient(to right , rgba(20, 137, 204, 60%), rgba(43, 50, 178, 60%)), url(https://i.picsum.photos/id/1073/5472/3648.jpg?hmac=xCDetU9pLnLGZopbvHOQOkQRhTiYwyrzWc0YyHPzp5Y);
+}
+
+.internship {
+    background-image: linear-gradient(to right , rgba(20, 137, 204, 60%), rgba(43, 50, 178, 60%)), url(https://i.picsum.photos/id/0/5616/3744.jpg?hmac=3GAAioiQziMGEtLbfrdbcoenXoWAW-zlyEAMkfEdBzQ);
+}
+
+.certification {
+    background-image: linear-gradient(to right , rgba(20, 137, 204, 60%), rgba(43, 50, 178, 60%)), url(https://i.picsum.photos/id/180/2400/1600.jpg?hmac=Ig-CXcpNdmh51k3kXpNqNqcDYTwXCIaonYiBOnLXBb8);
+}
+
