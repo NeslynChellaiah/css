@@ -34,8 +34,24 @@ body {
     background-image: linear-gradient(to right , rgba(20, 137, 204, 60%), rgba(43, 50, 178, 60%)), url(https://i.picsum.photos/id/1073/5472/3648.jpg?hmac=xCDetU9pLnLGZopbvHOQOkQRhTiYwyrzWc0YyHPzp5Y);
 }
 
+.content {
+    margin: 50px 0px;
+    text-align: center;
+}
+
+.content > .card{
+    background-image: linear-gradient(to right, #673AB7, #512DA8);
+    display: inline-block;
+    margin: auto;
+    width: 18rem;
+}
+
 .internship {
     background-image: linear-gradient(to right , rgba(20, 137, 204, 60%), rgba(43, 50, 178, 60%)), url(https://i.picsum.photos/id/0/5616/3744.jpg?hmac=3GAAioiQziMGEtLbfrdbcoenXoWAW-zlyEAMkfEdBzQ);
+}
+
+#cts, #guvi {
+ height: 6rem;
 }
 
 .certification {

@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap" rel="stylesheet"> 
     <title>Neslyn</title>
 </head>
@@ -16,17 +17,97 @@
         </div>
     </div>
     
+    <div class="content">
+        <div class="card text-white mb-3">
+            <div class="card-header">B.E - CSE</div>
+            <div class="card-body">
+              <h5 class="card-title">Sathyabama Institute of Science and Technology</h5>
+              <p class="card-text">7.35</p>
+            </div>
+          </div>
+          <div class="card text-white mb-3">
+            <div class="card-header">HSC</div>
+            <div class="card-body">
+              <h5 class="card-title">St. James Matriculation Higher Secondary School</h5>
+              <p class="card-text">82.83</p>
+            </div>
+          </div>
+          <div class="card text-white mb-3">
+            <div class="card-header">SSLC</div>
+            <div class="card-body">
+              <h5 class="card-title">St. James Matriculation Higher Secondary School</h5>
+              <p class="card-text">93.6</p>
+            </div>
+          </div>
+    </div>
+    
+    
+    
     <div class="title-container">
         <div class="title internship">
-            <h2 class="title-text">internship</h2>
+            <h2 class="title-text">internships</h2>
         </div>
+    </div>
+    <div class="content">
+        <div class="card text-white mb-3">
+            <div class="card-header"><img src="data:image/png;base64,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" alt="cts" id="cts"></div>
+            <div class="card-body">
+              <h5 class="card-title">ServiceNow Intern @COGNIZANT</h5>
+              <p>Jan 2020 - Apr 2020</p>
+            </div>
+          </div>
+          <div class="card text-white mb-3">
+            <div class="card-header"><img src="data:image/png;base64,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" alt="guvi" id="guvi"></div>
+            <div class="card-body">
+              <h5 class="card-title">Web Developer Intern @GUVI</h5>
+              <p>Jul 2019 - Sep 2019</p>
+            </div>
+          </div>
     </div>
 
     <div class="title-container">
         <div class="title certification">
             <h2 class="title-text">certificates</h2>
         </div>    
-    </div>    
+    </div> 
+    <div class="content">
+        <div class="card text-white mb-3">
+            <div class="card-header">Certified System Administrator</div>
+            <div class="card-body">
+              <h5 class="card-title">ServiceNow</h5>
+            </div>
+          </div>
+          <div class="card text-white mb-3">
+            <div class="card-header">Certified Application Developer</div>
+            <div class="card-body">
+              <h5 class="card-title">ServiceNow</h5>
+            </div>
+          </div>
+          <div class="card text-white mb-3">
+            <div class="card-header">CS50x 2020 - Web Track</div>
+            <div class="card-body">
+              <h5 class="card-title">Harvard University</h5>
+            </div>
+          </div>
+          <div class="card text-white mb-3">
+            <div class="card-header">Web Development Bootcamp</div>
+            <div class="card-body">
+              <h5 class="card-title">Udemy</h5>
+            </div>
+          </div>
+          <div class="card text-white mb-3">
+            <div class="card-header">MongoDB</div>
+            <div class="card-body">
+              <h5 class="card-title">Guvi</h5>
+            </div>
+          </div>
+          <div class="card text-white mb-3">
+            <div class="card-header">Python</div>
+            <div class="card-body">
+              <h5 class="card-title">Guvi</h5>
+            </div>
+          </div>
+    </div>   
     
 </body>
 </html>
