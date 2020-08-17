@@ -3,8 +3,42 @@
     padding: 0;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     padding: 30px;
+}
+
+.label {
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    background: linear-gradient(to right, #30CFD0 0%, #330867 100%);
+	-webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#webdev {
+    position: relative;
+    animation: mymoveright 5s;
+}
+
+@keyframes mymoveright {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+#dp {
+    width: 100px;
+    border-radius: 50%;
+    border-width: 3px;
+    border-style: solid;
+    border-color: #30CFD0;
 }
 
 .title-container {
@@ -44,6 +78,7 @@ body {
     display: inline-block;
     margin: auto;
     width: 18rem;
+    filter: drop-shadow(-1px 6px 3px rgba(50, 50, 0, 0.5));
 }
 
 .internship {
@@ -51,10 +86,26 @@ body {
 }
 
 #cts, #guvi {
- height: 6rem;
+    height: 6rem;
 }
 
+.projects {
+    background-image: linear-gradient(to right , rgba(20, 137, 204, 60%), rgba(43, 50, 178, 60%)), url(https://i.picsum.photos/id/119/3264/2176.jpg?hmac=PYRYBOGQhlUm6wS94EkpN8dTIC7-2GniC3pqOt6CpNU);
+}
 .certification {
     background-image: linear-gradient(to right , rgba(20, 137, 204, 60%), rgba(43, 50, 178, 60%)), url(https://i.picsum.photos/id/180/2400/1600.jpg?hmac=Ig-CXcpNdmh51k3kXpNqNqcDYTwXCIaonYiBOnLXBb8);
 }
 
+.social {
+    text-align: center;
+    font-size: 40px;
+}
+
+.social > a {
+    padding: 5%;
+}
+
+.reach-me {
+    background-image: linear-gradient(to right , rgba(20, 137, 204, 60%), rgba(43, 50, 178, 60%)), url(https://i.picsum.photos/id/146/5184/3456.jpg?hmac=G_lxX9tIxlu06vWGZhaLVSwVD0Id60UslhgveMXNEpo);
+
+}
